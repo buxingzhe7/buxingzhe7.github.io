@@ -1,11 +1,218 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
+<html>
 
-	<title>Document</title>
-</head>
-<body>
-	<div style="display:flex;justify-content:center">君若安好 便是晴天</div>
-</body>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<!--删除苹果默认的工具栏和菜单栏-->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<!--设置苹果工具栏颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<!--忽略页面中的数字识别为电话、邮箱-->
+		<meta name="author" contect="wangwei, 1432892220@qq.com" />
+		<title>步行者的学习项目</title>
+		<link rel="stylesheet" type="text/css" href="css/home.css" />
+		<style>
+		.mui-media-object {
+			border-radius: 50%;
+		}
+		.mui-subtitle {
+			color: #222;
+			text-align: right;
+		}
+		.mui-subtitle span:first-child {
+			font-size: 18px;			
+		}
+		.mui-subtitle span{
+			font-size: 12px;
+			margin-right: 10px;		
+		}
+		</style>
+	</head>
+
+	<body>
+
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-pull-left mui-iconfont"></a>
+			<h1 class="mui-title">论坛</h1>
+		</header>
+		
+		<nav class="mui-bar mui-bar-tab">
+			<a class="mui-tab-item mui-active">
+				<span class="mui-iconfont mui-icon-home"></span>
+				<span class="mui-tab-label">首页</span>
+			</a>
+			<a class="mui-tab-item">
+				<span class="mui-iconfont mui-icon-home"></span>
+				<span class="mui-tab-label">校园</span>
+			</a>
+			<a class="mui-tab-item">
+				<span class="mui-iconfont mui-icon-home"></span>
+				<span class="mui-tab-label">我的</span>
+			</a>
+		</nav>
+		
+		<div class="mui-content">
+			
+			<ul class="mui-table-view mui-grid-view">
+				<li class="mui-table-view-cell mui-media mui-col-xs-4">
+					<a href="#">
+						<span class="mui-iconfont mui-icon-home"></span>
+						<div class="mui-media-body">校园	</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media mui-col-xs-4">
+					<a href="#">
+						<span class="mui-iconfont mui-icon-home"></span>
+						<div class="mui-media-body">考研</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media mui-col-xs-4">
+					<a href="#">
+						<span class="mui-iconfont mui-icon-home"></span>
+						<div class="mui-media-body">校花</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media mui-col-xs-4">
+					<a href="#">
+						<span class="mui-iconfont mui-icon-home"></span>
+						<div class="mui-media-body">大学</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media mui-col-xs-4">
+					<a href="#">
+						<span class="mui-iconfont mui-icon-home"></span>
+						<div class="mui-media-body">211</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media mui-col-xs-4">
+					<a href="#">
+						<span class="mui-iconfont mui-icon-home"></span>
+						<div class="mui-media-body">985</div>
+					</a>
+				</li>
+			</ul>
+			
+			<ul class="mui-table-view">
+			    <li class="mui-table-view-cell mui-media">
+			        <a href="javascript:;">
+			            <img class="mui-media-object mui-pull-left" src="http://placehold.it/40x30">
+			            <div class="mui-media-body">
+			                	本打算写下那段曾经让我沦陷的两年
+			                	<p class="mui-subtitle"><span class="mui-iconfont mui-icon-home"></span><span>回复</span></p>
+			            </div>
+			        </a>
+			    </li>
+			    <li class="mui-table-view-cell mui-media">
+			        <a href="javascript:;">
+			            <img class="mui-media-object mui-pull-left" src="http://placehold.it/40x30">
+			            <div class="mui-media-body">
+			                【大一新生指南】关于新生入校所需的必需品
+			                <p class="mui-subtitle"><span class="mui-iconfont mui-icon-home"></span><span>回复</span></p>
+			            </div>
+			        </a>
+			    </li>
+			    <li class="mui-table-view-cell mui-media">
+			        <a href="javascript:;">
+			            <img class="mui-media-object mui-pull-left" src="http://placehold.it/40x30">
+			            <div class="mui-media-body">
+			                留下你的贵姓，做出属于你的手机壁纸 收藏我会统一做出给你们答案
+			                <p class="mui-subtitle"><span class="mui-iconfont mui-icon-home"></span><span>回复</span></p>
+			            </div>
+			        </a>
+			    </li>
+			</ul>
+			
+			
+			
+			
+			<!--<ul class="mui-table-view">
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right">
+						web组件H5图表报告
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right">
+						web组件popup弹出层
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right">
+						交易平台测试
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right">
+						交易平台测试
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right">
+						交易平台测试
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right">
+						交易平台测试
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right">
+						交易平台测试
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right">
+						交易平台测试
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right">
+						交易平台测试
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right">
+						交易平台测试
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right">
+						交易平台测试
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right">
+						交易平台测试
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right">
+						交易平台测试
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right">
+						交易平台测试
+					</a>
+				</li>
+			</ul>-->
+		</div>
+
+
+
+		<script>
+			//切换选项卡高亮
+			var tabLi = document.querySelectorAll('.mui-bar-tab>.mui-tab-item');
+			for(var i = 0; i < tabLi.length; i++) {
+				tabLi[i].addEventListener('click', function() {
+					var current = document.querySelector(".mui-bar-tab>.mui-tab-item.mui-active");
+					current.classList.remove('mui-active');
+					this.classList.add('mui-active');
+				});
+			}
+		</script>
+	</body>
+
 </html>
